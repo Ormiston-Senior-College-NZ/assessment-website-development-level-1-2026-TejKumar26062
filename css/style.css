@@ -94,11 +94,8 @@ p{
     padding-top: 20px;
 }
 
-#values{
-    display: flex;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
+.values{
+   
 }
 
 #valuesh1{
@@ -110,7 +107,14 @@ p{
 }
 
 .valuesimg{
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
     width: 400px;
     height: 280px;
+}
+
+#divvaluesp{
+    padding-left: 100px;
+    padding-right: 100px;
 }
