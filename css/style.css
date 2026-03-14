@@ -111,7 +111,6 @@ p{
 
 .valuesimg{
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
     width: 400px;
     height: 280px;
 }
