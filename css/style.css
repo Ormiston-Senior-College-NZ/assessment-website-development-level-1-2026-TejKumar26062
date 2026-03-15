@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(226, 250, 226);
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    min-width: 100%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+
+}
+
+.topnav{
+    display: flex;
+    background-color: orange;
+    overflow: hidden;   
+    text-align: center;
+    justify-content: space-around;
+    border: 0.1px solid black;
+    width: 100%;
+}
+
+
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 20px; 
+    width: 10%;
+
+}
+
+.topnav a:hover{
+    background-color: rgb(137, 239, 173);
+    color: black;
+}
+
+.active{
+    background-color: rgb(55, 169, 104);
+}
+
+.heroimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/image/UV12537.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    border: 0.1px solid black;
+    opacity: 90%;
+}
+.herotext{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.heroimg2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),url('/image/UV12797.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 350px;
+    width: 100%;
+    border: 0.1px solid black;
+}
+.herotext2{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.heroimg3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),url('/image/bollywood showdown.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 350px;
+    width: 100%;
+    border: 0.1px solid black;
+}
+.herotext3{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.osclogo{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.aboutus{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+#aboutusp{
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+    word-spacing: 3px;
+    line-height: 40px;
+}
+
+.aboutusimg{
+    width: 500px;
+    height: auto;
+    border-radius: 2px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#aboutush1{
+    border-top: 1px solid black;
+    margin-bottom: -8px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.values{
+    border-top: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#valuesh1{
+    text-align: center;
+    padding-top: 8px;
+    font-size: 45px;
+    grid-column: 1 / -1;
+
+}
+
+.valuesimg1{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 200px;
+}
+
+.valuesimg2{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-right: 200px;
+}
+
+#plus{
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#divvaluesp{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#divvaluesp{
+    padding-left: 110px;
+    padding-right: 110px;
+    text-align: center;
+    font-size: 17px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
