@@ -1,7 +1,12 @@
 body{
     background-color: rgb(226, 250, 226);
-margin:0;
-padding:0;
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    min-width: 100%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+
 }
 
 .topnav{
@@ -22,6 +27,8 @@ padding:0;
     padding: 18px 16px;
     text-decoration: none;
     font-size: 20px; 
+    width: 10%;
+
 }
 
 .topnav a:hover{
@@ -34,15 +41,47 @@ padding:0;
 }
 
 .heroimg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),url('/image/UV12537.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/image/UV12537.jpg');
     background-size: cover;
     background-position: center;
     height: 350px;
     width: 100%;
     border: 0.1px solid black;
-
+    opacity: 90%;
 }
 .herotext{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.heroimg2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),url('/image/UV12797.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 350px;
+    width: 100%;
+    border: 0.1px solid black;
+}
+.herotext2{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.heroimg3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),url('/image/bollywood showdown.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 350px;
+    width: 100%;
+    border: 0.1px solid black;
+}
+.herotext3{
     color: white;
     text-align: center;
     padding-top: 50px;
@@ -62,8 +101,9 @@ p{
 .aboutus{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
     text-align: center;
+    justify-items: center;
+    align-items: center;
 }
 
 #aboutusp{
@@ -78,9 +118,8 @@ p{
 
 .aboutusimg{
     width: 500px;
-    height: 400px;
+    height: auto;
     border-radius: 2px;
-    padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -95,26 +134,53 @@ p{
 }
 
 .values{
-   
+    border-top: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
 }
 
 #valuesh1{
-    border-top: 1px solid black;
-    margin-bottom: -8px;
     text-align: center;
     padding-top: 8px;
-    font-size: 40px;
+    font-size: 45px;
+    grid-column: 1 / -1;
+
 }
 
-.valuesimg{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+.valuesimg1{
+    display: block;
     width: 400px;
-    height: 280px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 200px;
+}
+
+.valuesimg2{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding-right: 200px;
+}
+
+#plus{
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 #divvaluesp{
     padding-left: 100px;
     padding-right: 100px;
+}
+
+#divvaluesp{
+    padding-left: 110px;
+    padding-right: 110px;
+    text-align: center;
+    font-size: 17px;
+    word-spacing: 5px;
+    line-height: 30px;
 }
